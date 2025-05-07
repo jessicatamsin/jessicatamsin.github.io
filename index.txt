@@ -84,8 +84,9 @@
       </div>
       <div class="right">
         <div class="title">SHOWS SPRING/SUMMER 2025</div>
+<div class="title">Jessica Tamsin Allemann / jessica.allemann@gmail.com</div>
         <div class="event"><span class="date">18.5</span> Porteus, Genève - Solo Performance (Arboretum)</div>
-<div class="event"><span class="date">25.5</span> Off Space, Wollishofen - Performance avec Juliette Uzor and Camille</div>
+     <div class="event"><span class="date">24.5</span> Off Space, Wollishofen - Performance with Juliette Uzor and Camille</div>
         <div class="event"><span class="date">25.5</span> Lieu Commun, Lausanne - Duo Performance with Evo Lambillon</div>
         <div class="event"><span class="date">30/31.5</span> Lausanne (place tbd) - Duo Performance with Emma Perez</div>
         <div class="event"><span class="date">5 - 6.6</span> EinTanzHaus, Mannheim - Ouverture (Géraldine Chollet)</div>
