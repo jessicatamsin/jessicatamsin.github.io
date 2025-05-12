@@ -1,125 +1,108 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2487.5">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 11.0px 'Helvetica Neue'; color: #000000}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 11.0px 'Helvetica Neue'; color: #000000; min-height: 12.0px}
-    span.s1 {text-decoration: underline}
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shows Spring/Summer 2025</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      position: relative;
+      width: 100%;
+      min-height: 100vh;
+      background: url('your-image.jpg') no-repeat center center/cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .overlay {
+      background: rgba(255, 255, 255, 0.8);
+      display: flex;
+      flex-direction: row;
+      max-width: 1000px;
+      width: 90%;
+      padding: 2rem;
+      box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    }
+
+    .left {
+      flex: 1;
+      padding-right: 1rem;
+    }
+
+    .left img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .right {
+      flex: 2;
+      padding-left: 1rem;
+    }
+
+    .title {
+      font-weight: bold;
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .event {
+      margin-bottom: 0.8rem;
+    }
+
+    .date {
+      font-weight: bold;
+      margin-right: 0.5rem;
+    }
+
+    @media (max-width: 768px) {
+      .overlay {
+        flex-direction: column;
+      }
+
+      .left, .right {
+        padding: 0;
+      }
+
+      .right {
+        margin-top: 1rem;
+      }
+    }
   </style>
 </head>
 <body>
-<p class="p1">&lt;!DOCTYPE html&gt;</p>
-<p class="p1">&lt;html lang="en"&gt;</p>
-<p class="p1">&lt;head&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;meta charset="UTF-8" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"/&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;title&gt;Shows Spring/Summer 2025&lt;/title&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;style&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>body {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>margin: 0;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>font-family: Arial, sans-serif;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>.container {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>position: relative;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>width: 100%;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>min-height: 100vh;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>background: url('your-image.jpg') no-repeat center center/cover;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>display: flex;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>align-items: center;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>justify-content: center;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>.overlay {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>background: rgba(255, 255, 255, 0.8);</p>
-<p class="p1"><span class="Apple-converted-space">      </span>display: flex;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>flex-direction: row;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>max-width: 1000px;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>width: 90%;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>padding: 2rem;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>box-shadow: 0 0 20px rgba(0,0,0,0.2);</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>.left {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>flex: 1;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>padding-right: 1rem;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>.left img {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>width: 100%;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>height: auto;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>border-radius: 8px;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>.right {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>flex: 2;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>padding-left: 1rem;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>.title {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>font-weight: bold;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>font-size: 1.5rem;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>margin-bottom: 1rem;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>.event {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>margin-bottom: 0.8rem;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>.date {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>font-weight: bold;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>margin-right: 0.5rem;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>@media (max-width: 768px) {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>.overlay {</p>
-<p class="p1"><span class="Apple-converted-space">        </span>flex-direction: column;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">      </span>.left, .right {</p>
-<p class="p1"><span class="Apple-converted-space">        </span>padding: 0;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">      </span>.right {</p>
-<p class="p1"><span class="Apple-converted-space">        </span>margin-top: 1rem;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/style&gt;</p>
-<p class="p1">&lt;/head&gt;</p>
-<p class="p1">&lt;body&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="container"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="overlay"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="left"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;img src="your-image.jpg" alt="Swimmer Image" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class=„right"&gt;</p>
-<p class="p1">&lt;div class="event"&gt;&lt;span class=„date"&gt;Jessica Tamsin Allemann / <a href="mailto:jessica.allemann@gmail.com"><span class="s1">jessica.allemann@gmail.com</span></a> / IG: jeta.jessicatamsin&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="title"&gt;SHOWS 2025&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="event"&gt;&lt;span class="date"&gt;18.5 (17.30)&lt;/span&gt; Porteus, Genève - Solo Performance (Arboretum)&lt;/div&gt;</p>
-<p class="p1">&lt;div class="event"&gt;&lt;span class="date"&gt;24.5 (19.00)&lt;/span&gt; „REDSHIFT“, Seestrasse 346 Zürich - Performance with Juliette Uzor&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="event"&gt;&lt;span class="date"&gt;25.5 (15.00)&lt;/span&gt; Lieu Commun, Lausanne - Duo Performance with Evo Lambillon&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="event"&gt;&lt;span class="date"&gt;30 - 31.5&lt;/span&gt; Lausanne (place tbd) - Duo Performance with Emma Perez&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="event"&gt;&lt;span class="date"&gt;5 - 6.6&lt;/span&gt; EinTanzHaus, Mannheim - Ouverture (Géraldine Chollet)&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="event"&gt;&lt;span class="date"&gt;11.6 (19.00)&lt;/span&gt; La Valencienne, Lausanne - Duo Performance with Emma Perez&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="event"&gt;&lt;span class="date"&gt;21.6 (5.30am)&lt;/span&gt; Mudac, Lausanne - Ouverture (Géraldine Chollet)&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="event"&gt;&lt;span class="date"&gt;1 - 14.9&lt;/span&gt; Kaserne, Basel - Lick life against the direction of its fur (Tyra Wigg)&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">   </span>&lt;div class="event"&gt;&lt;span class="date"&gt;19.10&lt;/span&gt; Aargauer Kunsthaus - Performance with Sophie Germanier and Dustin Kenel&lt;/div&gt;</p>
-<p class="p1">&lt;div class="event"&gt;&lt;span class="date"&gt;31.10 - 9.11&lt;/span&gt; Théâtre de Vidy, Lausanne - more infos coming soon&lt;/div&gt;</p>
-<p class="p1">&lt;div class="event"&gt;&lt;span class="date"&gt;10 - 16.11&lt;/span&gt; ADC, Genève - more infos coming soon&lt;/div&gt;</p>
-<p class="p1">&lt;div class="event"&gt;&lt;span class="date"&gt; 21 - 22.11&lt;/span&gt; Gessnerallee, Zürich - more infos coming soon&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="event"&gt;&lt;span class="date"&gt;28.11&lt;/span&gt; Tanzfestival, Winterthur - Le repos (Clara Delorme)&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">   </span>&lt;div class="event"&gt;&lt;span class="date"&gt;11.12&lt;/span&gt; Aargauer Kunsthaus - Performance with Sophie Germanier and Dustin Kenel&lt;/div&gt;</p>
-<p class="p1">&lt;div class="title"&gt;SHOWS 2026&lt;/div&gt;</p>
-<p class="p1">&lt;div class="event"&gt;&lt;span class="date"&gt;1 - 2.2&lt;/span&gt; Amiens - Black Lights (Mathilde Monnier)&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
-<p class="p1">&lt;/body&gt;</p>
-<p class="p1">&lt;/html&gt;</p>
+  <div class="container">
+    <div class="overlay">
+      <div class="left">
+        <img src="your-image.jpg" alt="Swimmer Image" />
+      </div>
+      <div class=„right">
+<div class="event"><span class=„date">Jessica Tamsin Allemann / jessica.allemann@gmail.com / IG: jeta.jessicatamsin</div>
+        <div class="title">SHOWS 2025</div>
+        <div class="event"><span class="date">18.5 (17.30)</span> Porteus, Genève - Solo Performance (Arboretum)</div>
+<div class="event"><span class="date">24.5 (19.00)</span> „REDSHIFT“, Seestrasse 346 Zürich - Performance with Juliette Uzor</div>
+        <div class="event"><span class="date">25.5 (15.00)</span> Lieu Commun, Lausanne - Duo Performance with Evo Lambillon</div>
+        <div class="event"><span class="date">30 - 31.5</span> Lausanne (place tbd) - Duo Performance with Emma Perez</div>
+        <div class="event"><span class="date">5 - 6.6</span> EinTanzHaus, Mannheim - Ouverture (Géraldine Chollet)</div>
+        <div class="event"><span class="date">11.6 (19.00)</span> La Valencienne, Lausanne - Duo Performance with Emma Perez</div>
+        <div class="event"><span class="date">21.6 (5.30am)</span> Mudac, Lausanne - Ouverture (Géraldine Chollet)</div>
+        <div class="event"><span class="date">1 - 14.9</span> Kaserne, Basel - Lick life against the direction of its fur (Tyra Wigg)</div>
+   <div class="event"><span class="date">19.10</span> Aargauer Kunsthaus - Performance with Sophie Germanier and Dustin Kenel</div>
+<div class="event"><span class="date">31.10 - 9.11</span> Théâtre de Vidy, Lausanne - more infos coming soon</div>
+<div class="event"><span class="date">10 - 16.11</span> ADC, Genève - more infos coming soon</div>
+<div class="event"><span class="date"> 21 - 22.11</span> Gessnerallee, Zürich - more infos coming soon</div>
+  <div class="event"><span class="date">28.11</span> Tanzfestival, Winterthur - Le repos (Clara Delorme)</div>
+   <div class="event"><span class="date">11.12</span> Aargauer Kunsthaus - Performance with Sophie Germanier and Dustin Kenel</div>
+<div class="title">SHOWS 2026</div>
+<div class="event"><span class="date">1 - 2.2</span> Amiens - Black Lights (Mathilde Monnier)</div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
