@@ -5,21 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Shows Spring/Summer 2025</title>
   <style>
-    /* 🎨 COLOR VARIABLES - change these for your theme */
-    :root {
-      --primary-bg: #fffbea;
-      --secondary-bg: rgba(255, 255, 255, 0.85);
-      --accent-color: #00008B;
-      --text-color: #333;
-      --title-color: #22223b;
-      --date-color: #9a8c98;
-    }
-
     body {
       margin: 0;
       font-family: Arial, sans-serif;
-      background-color: var(--primary-bg);
-      color: var(--text-color);
     }
 
     .container {
@@ -33,14 +21,13 @@
     }
 
     .overlay {
-      background: var(--secondary-bg);
+      background: rgba(255, 255, 255, 0.8);
       display: flex;
       flex-direction: row;
       max-width: 1000px;
       width: 90%;
       padding: 2rem;
-      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.2);
     }
 
     .left {
@@ -61,9 +48,8 @@
 
     .title {
       font-weight: bold;
-      font-size: 1.8rem;
-      margin: 1.2rem 0 0.8rem;
-      color: var(--title-color);
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
     }
 
     .event {
@@ -73,16 +59,6 @@
     .date {
       font-weight: bold;
       margin-right: 0.5rem;
-      color: var(--date-color);
-    }
-
-    a {
-      color: var(--accent-color);
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
     }
 
     @media (max-width: 768px) {
@@ -106,57 +82,26 @@
       <div class="left">
         <img src="your-image.jpg" alt="Swimmer Image" />
       </div>
-      <div class="right">
-        <div class="event">
-          <span class="date">Jessica Tamsin Allemann</span> / 
-          <a href="mailto:jessica.allemann@gmail.com">jessica.allemann@gmail.com</a> / 
-          IG: <a href="https://instagram.com/jeta.jessicatamsin" target="_blank">@jeta.jessicatamsin</a>
-        </div>
-
+      <div class=„right">
+<div class="event"><span class=„date">Jessica Tamsin Allemann / jessica.allemann@gmail.com / IG: jeta.jessicatamsin</div>
         <div class="title">COMING</div>
-       <div class="event">
-  <span class="date">10. - 13.9 (20h), 14.9 (16h)</span> 
-  <a href="https://kaserne-basel.ch/de/events/tyra-wigg" target="_blank">Kaserne, Basel</a> - Lick life against the direction of its fur (Tyra Wigg)
-</div>
-<div class="event">
-  <span class="date">19.10 (13.00)</span> 
-  <a href="https://aargauerkunsthaus.ch/de/agenda/performance-sophie-germanier-co/?date=2025-10-19" target="_blank">Aargauer Kunsthaus</a> - Performance with Sophie Germanier and Dustin Kenel
-</div>
-<div class="event">
-  <span class="date">31.10 - 9.11</span> 
-  <a href="https://www.vidy.ch/en/event/geraldine-chollet-la-tendresse-du-ventre-de-la-baleine/" target="_blank">Théâtre de Vidy, Lausanne</a> - La tendresse du ventre de la baleine (Géraldine Chollet)
-</div>
-<div class="event">
-  <span class="date">10 - 16.11</span> 
-  <a href="https://pavillon-adc.ch/spectacle/geraldine-chollet-2025/" target="_blank">ADC, Genève</a> - La tendresse du ventre de la baleine (Géraldine Chollet)
-</div>
-<div class="event">
-  <span class="date">21 - 22.11</span> 
-  <a href="https://www.gessnerallee.ch" target="_blank">Gessnerallee, Zürich</a> - La tendresse du ventre de la baleine (Géraldine Chollet)
-</div>
-<div class="event">
-  <span class="date">28.11</span> 
-  <a href="https://tanzfestivalwinterthur.ch/28-11-2025/" target="_blank">Tanzfestival, Winterthur</a> - Le repos (Clara Delorme)
-</div>
-<div class="event">
-  <span class="date">11.12 (17.30)</span> 
-  <a href="https://aargauerkunsthaus.ch/de/agenda/performance-sophie-germanier-co/?date=2025-12-11" target="_blank">Aargauer Kunsthaus</a> - Performance with Sophie Germanier and Dustin Kenel
-</div>
-<div class="event">
-  <span class="date">19.12 (19.00)</span> 
-  <a href="https://www.s11.ch" target="_blank">KünstlerInnenhaus S11, Solothurn</a> - Performance with Hannah Adriana Müller (Im Rahmen einer Ausstellung der FörderpreisträgerInnen)
-</div><div class="event"><span class="date">…</div> 
-        
-        <div class="title">PAST</div>
-        <div class="event"><span class="date">2.8.25</span> Sauvabelin, Lausanne - Choeurs des coeurs brisées</div>
-        <div class="event"><span class="date">21.6.25</span> Mudac, Lausanne - Ouverture (Géraldine Chollet)</div>
-     <div class="event"><span class="date">11.6.25</span> La Valencienne, Lausanne - Special Tour Concert (Duo with Emma Perez)</div>
+   <div class="event"><span class="date">19.10 (13.00)</span> Aargauer Kunsthaus - Performance with Sophie Germanier and Dustin Kenel</div>
+<div class="event"><span class="date">31.10 - 9.11</span> Théâtre de Vidy, Lausanne - La tendresse du ventre de la baleine (Géraldine Chollet)</div>
+<div class="event"><span class="date">10 - 16.11</span> ADC, Genève - La tendresse du ventre de la baleine (Géraldine Chollet)</div>
+<div class="event"><span class="date"> 21. - 22.11</span> Gessnerallee, Zürich - La tendresse du ventre de la baleine (Géraldine Chollet)</div>
+  <div class="event"><span class="date">28.11</span> Tanzfestival, Winterthur - Le repos (Clara Delorme)</div>
+   <div class="event"><span class="date">11.12 (17.30)</span> Aargauer Kunsthaus - Performance with Sophie Germanier and Dustin Kenel</div>
+<div class="event"><span class="date">19.12 (19.00)</span> KünstlerInnenhaus S11, Solothurn - Performance with Hannah Adriana Müller (Im Rahmen einer Ausstellung der FörderpreisträgerInnen)</div>
+<div class="event"><span class="date">…</div> <div class="title">PAST</div>
+     <div class="event"><span class="date">10. - 14.9 </span> Kaserne, Basel - Lick life against the direction of its fur (Tyra Wigg)</div>
+	<div class="event"><span class="date">2.8.25</span> Sauvabelin, Lausanne - Choeurs des coeurs brisées (with Jasmin Sisti and Judit Waeterschoot)</div> <div class="event"><span class="date">21.6.25</span> Mudac, Lausanne - Ouverture (Géraldine Chollet)</div>
+        <div class="event"><span class="date">11.6.25</span> La Valencienne, Lausanne - Special Tour Concert (Duo with Emma Perez)</div>
       <div class="event"><span class="date">6 - 7.6.25</span> EinTanzHaus, Mannheim - Ouverture (Géraldine Chollet)</div>
   <div class="event"><span class="date">31.5.25</span> Sauvabelin, Lausanne - Special Tour Concert (Duo with Emma Perez)</div>
     <div class="event"><span class="date">25.5.25</span> „Lieu Commun“, Chemin des Bouleaux 5, 1052 Le Mont-sur-Lausanne - Duo Performance with Evo Lambillon</div>
 <div class="event"><span class="date">24.5.25</span> „REDSHIFT“, Seestrasse 346 Zürich - DELIVERY (The same way you showed) (Juliette Uzor)</div>
         <div class="event"><span class="date">18.5.25</span> Porteus, Genève - Solo Performance (Arboretum)</div>
-    <div class="event"><span class="date">14 -15.1.25</span> Pole Sud, Strassbourg - Black Lights (Mathilde Monnier)</div>
+    <div class="event"><span class="date">14. -15.1.25</span> Pole Sud, Strassbourg - Black Lights (Mathilde Monnier)</div>
   <div class="event"><span class="date">22.11.24</span> Tanz in Olten, Olten - Black Lights (Mathilde Monnier)</div>
 <div class="event"><span class="date">21.11.24</span> Halle Tropisme, Montpellier - füürfest (Solo)</div>
 <div class="event"><span class="date">15.11.24</span>Menagerie de Verre, Paris - füürfest (Solo)</div>
@@ -165,21 +110,21 @@
 <div class="event"><span class="date">27 - 29.9.24</span>Centre Pompidou, Paris - Territoires (Mathilde Monnier)</div>
 <div class="event"><span class="date">10.8.24</span>at Lac Léman, Allaman - Dansemment (Duo with Evo Lambillon)</div>
 <div class="event"><span class="date">22.7.24</span>Paleo Festival, Lausanne - Vingt ans et le monde (Mathilde Monnier)</div>
-<div class="event"><span class="date">13 - 20.7.24</span>Festival d'Avignon - Transmission Impossible</div>
-<div class="event"><span class="date">6 -7.24</span>Festival de la Cité, Lausanne - Vingt ans et le monde (Mathilde Monnier)</div>
-<div class="event"><span class="date">May - June 2024</span>Kunstzeughaus, Rapperswil - Es Meitli het welle z'Tanz go(Sophie Germanier)</div>
+<div class="event"><span class="date">13. - 20.7.24</span>Festival d'Avignon - Transmission Impossible</div>
+<div class="event"><span class="date">6. -7.24</span>Festival de la Cité, Lausanne - Vingt ans et le monde (Mathilde Monnier)</div>
+<div class="event"><span class="date">May - June 2024</span>Kunstzeughaus, Rapperswil - Es Meitli het welle z'Tanz go (Sophie Germanier)</div>
 <div class="event"><span class="date">May 2024</span>Aux Losanges, Tschiertschen- Es Meitli het welle z'Tanz go (Sophie Germanier)</div>
 <div class="event"><span class="date">25.5.24</span>Espace Eeeeh, Nyon - Ca va? (Duo with Emma Perez)</div>
 <div class="event"><span class="date">8.5.24</span>Tanzhaus, Zürich- Und dann kamen die Kinder (Eugénie Rebetez)</div>
-<div class="event"><span class="date">1 - 5.5.24</span>Théâtre Mutins, Lausanne- Je suis née un jour jaune (Yann Hermenjat)</div>
-<div class="event"><span class="date">2 - 6.4.24</span>La Grange UNIL, Lausanne - Le repos (Clara Delorme)</div>
-<div class="event"><span class="date">13 - 15.3.24</span>Théâtre Sévélin, Lausanne - Le repos (Clara Delorme)</div>
+<div class="event"><span class="date">1. - 5.5.24</span>Théâtre Mutins, Lausanne- Je suis née un jour jaune (Yann Hermenjat)</div>
+<div class="event"><span class="date">2. - 6.4.24</span>La Grange UNIL, Lausanne - Le repos (Clara Delorme)</div>
+<div class="event"><span class="date">13. - 15.3.24</span>Théâtre Sévélin, Lausanne - Le repos (Clara Delorme)</div>
 <div class="event"><span class="date">1.2.24</span>Kunstmuseum, St.Gallen - (ah ah ah) (Juliette Uzor)</div>
 <div class="event"><span class="date">7.12.23</span>TicTac, Brussels - Performance with Sarah Ludi and Evo Lambillon</div>
-<div class="event"><span class="date">26 - 27.11.23</span>Salle du Lignon, Vernier - wouah! (Nicole Seiler)</div>
+<div class="event"><span class="date">26. - 27.11.23</span>Salle du Lignon, Vernier - wouah! (Nicole Seiler)</div>
 <div class="event"><span class="date">23.9.23</span>FRI-SON, Fribourg - Collaboration with Filomé Robinson Starck for Abysse</div>
  <div class="event"><span class="date">15.9.23</span>Lila Queer Festival Rote Fabrik, Zürich - Schnukré (Duo with Alina Arshi)</div>
-<div class="event"><span class="date">17 - 18.6.23</span>Centre Pompidou, Paris - Eventfully Tender (Natasza Gerlach)</div>
+<div class="event"><span class="date">17. - 18.6.23</span>Centre Pompidou, Paris - Eventfully Tender (Natasza Gerlach)</div>
 <div class="event"><span class="date">2021 - 2023</span>In the frame of La Manufacture - Pieces with Salva Sanchis, Alma Söderberg, Horacio Macuacua, Shelly Senter(Trisha Brown), Yasmine Hugonnet</div>
 <div class="event"><span class="date">2020</span>Tour Vagabonde, Fribourg - Temperature Check (Duo with Privael Burkhard)</div>
       </div>
@@ -187,4 +132,10 @@
   </div>
 </body>
 </html>
+  
 
+   
+     
+ 
+
+  
